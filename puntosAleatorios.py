@@ -21,4 +21,5 @@ def animate(frame):
     return scat,
 
 ani = FuncAnimation(fig, animate, frames=100, interval=50, blit=True)
+ani.save("puntosAleatorios_animado.gif", writer="pillow", fps=5)
 plt.show()

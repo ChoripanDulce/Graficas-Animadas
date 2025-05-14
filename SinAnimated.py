@@ -25,7 +25,7 @@ def update(frame):
 # Crear la animación
 ani = FuncAnimation(fig, update, frames=200, init_func=init, blit=True, interval=20)
 
-ani.save("seno_animado.gif", writer="pillow", fps=30)
+ani.save("seno_animado.gif", writer="pillow", fps=5)
 
 # Mostrar la animación
 plt.title("Animación de la función Seno")

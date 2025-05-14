@@ -2,8 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
-# Lee el archivo CSV (ajusta el nombre y columnas según tu archivo)
-# El CSV debe tener columnas: 'Año', 'País', 'Valor'
+
 df = pd.read_csv('Hola.CSV')
 
 # Lista de años ordenados
