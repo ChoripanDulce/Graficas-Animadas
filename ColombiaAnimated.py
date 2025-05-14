@@ -5,7 +5,7 @@ from matplotlib.animation import FuncAnimation
 # Cargar el archivo CSV
 df = pd.read_csv("01 renewable-share-energy.csv")
 
-# Filtrar datos para África
+# Filtrar datos para Colombia
 df_africa = df[df["Entity"] == "Colombia"].copy()
 df_africa = df_africa.sort_values("Year")
 years = df_africa["Year"].values
